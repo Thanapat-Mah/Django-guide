@@ -1,13 +1,13 @@
 # Initialize Virtual Environment
-### create virtual environment in folder named `env`
+### create virtual environment in folder named `venv`
 ```commandline
-virtualenv -p python3 env
+virtualenv -p python3 venv
 ```
 
 ### activate virtual environment
 ```commandline
 Set-ExecutionPolicy Unrestricted -Scope Process
-.\env\Scripts\activate
+.\venv\Scripts\activate
 Set-ExecutionPolicy Default -Scope Process
 ```
 `Set-ExecutionPolicy` is used in case if you can't run `Scripts\activate`  
